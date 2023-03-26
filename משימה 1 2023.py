@@ -4,7 +4,7 @@ Created on Mon Mar 20 11:22:24 2023
 
 @author: mikhal
 """
-#תרגיל 1
+#Q1
 def my_func(x1,x2,x3):
     if type(x1)== int and  type(x2)== int  and type(x3) == int:
         print("Error: parameters should be float")      
@@ -20,7 +20,7 @@ x2=4.4
 x3= 4.5       
 my_func(x1,x2,x3)
 
-#targil 2
+#Q2
 def revword(lowerword:str):
             lowerword = lowerword.lower()[::-1]
             return lowerword
